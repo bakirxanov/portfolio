@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "statistics": "Statistics",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Akmal Bakirxanov",
+    "roles": ["Frontend Developer", "React Developer", "UI Enthusiast"],
+    "paragraph": "I craft fast, elegant, and highly interactive web experiences — turning complex ideas into interfaces people love to use.",
+    "downloadCv": "Download CV",
+    "contactMe": "Contact Me",
+    "viewProjects": "View Projects",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Get to know who I am",
+    "whoIAm": "Who I Am",
+    "whoIAmText": "I'm a frontend developer with a passion for building immersive, performant, and pixel-perfect digital products. I specialize in React ecosystems and love bringing bold design ideas to life through motion and code.",
+    "timelineTitle": "My Journey",
+    "educationTitle": "Education",
+    "experienceTitle": "Experience",
+    "timeline": [
+      { "year": "2018 — 2020", "title": "Computer Science Diploma", "place": "National IT University", "type": "education", "desc": "Studied algorithms, data structures and software engineering fundamentals." },
+      { "year": "2020 — 2021", "title": "Junior Frontend Developer", "place": "PixelCraft Studio", "type": "experience", "desc": "Built responsive marketing sites and internal dashboards using React." },
+      { "year": "2021 — 2023", "title": "Frontend Developer", "place": "NovaTech Labs", "type": "experience", "desc": "Led the UI layer for a fintech platform, improved performance by 40%." },
+      { "year": "2023 — Present", "title": "Senior Frontend Developer", "place": "Orbit Interactive", "type": "experience", "desc": "Architecting design systems and leading a team of 5 frontend engineers." }
+    ],
+    "downloadCv": "Download Full CV"
+  },
+  "skills": {
+    "title": "My Skills",
+    "subtitle": "Technologies I work with every day",
+    "list": [
+      { "name": "React", "level": 95 },
+      { "name": "JavaScript", "level": 93 },
+      { "name": "TypeScript", "level": 85 },
+      { "name": "HTML5", "level": 98 },
+      { "name": "CSS3", "level": 96 },
+      { "name": "Tailwind CSS", "level": 92 },
+      { "name": "Redux", "level": 80 },
+      { "name": "React Query", "level": 88 },
+      { "name": "Axios", "level": 90 },
+      { "name": "Node.js", "level": 75 },
+      { "name": "Git & GitHub", "level": 90 },
+      { "name": "Framer Motion", "level": 87 }
+    ]
+  },
+  "statistics": {
+    "title": "By The Numbers",
+    "subtitle": "A quick snapshot of my journey so far",
+    "projectsCompleted": "Projects Completed",
+    "yearsLearning": "Years Learning",
+    "happyClients": "Happy Clients",
+    "repositories": "Repositories",
+    "hoursCoding": "Hours Coding",
+    "technologies": "Technologies Mastered"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A selection of things I've built recently",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code",
+    "list": [
+      { "title": "Nova Finance Dashboard", "desc": "A real-time analytics dashboard for a fintech startup, featuring live charts, dark mode and role-based access.", "tags": ["React", "TypeScript", "TanStack Query"] },
+      { "title": "Aurora E-Commerce", "desc": "A premium storefront with 3D product previews, animated cart interactions and a headless CMS integration.", "tags": ["React", "Framer Motion", "Tailwind"] },
+      { "title": "Pulse Fitness App", "desc": "A cross-platform fitness tracker with animated progress rings and social challenges.", "tags": ["React", "GSAP", "Redux"] },
+      { "title": "Lumen Portfolio Kit", "desc": "A component library for building award-winning portfolio sites, used by 200+ developers.", "tags": ["React", "Vite", "Storybook"] },
+      { "title": "Orbit Travel Planner", "desc": "An interactive trip planner with map integration and collaborative itineraries.", "tags": ["React", "Mapbox", "Axios"] },
+      { "title": "Nimbus Chat", "desc": "A real-time messaging app with animated presence indicators and end-to-end encryption.", "tags": ["React", "WebSockets", "Framer Motion"] }
+    ]
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Have a project in mind? Let's talk about it.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "errors": {
+        "nameRequired": "Please enter your name",
+        "emailRequired": "Please enter your email",
+        "emailInvalid": "Please enter a valid email",
+        "phoneInvalid": "Please enter a valid phone number",
+        "subjectRequired": "Please enter a subject",
+        "messageRequired": "Please enter your message",
+        "messageMin": "Message should be at least 10 characters"
+      }
+    },
+    "location": "Based in",
+    "locationValue": "Tashkent, Uzbekistan",
+    "availability": "Available for freelance work",
+    "followMe": "Follow Me"
+  },
+  "footer": {
+    "tagline": "Building beautiful, performant interfaces — one pixel at a time.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "subtitle": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "loader": {
+    "loading": "Loading"
+  },
+  "home": {
+    "features": [
+      { "title": "Clean Code", "text": "Scalable, well-structured code following industry best practices." },
+      { "title": "Thoughtful Design", "text": "Pixel-perfect interfaces with obsessive attention to detail." },
+      { "title": "Performance First", "text": "Optimized for speed — fast loads, smooth animations, no jank." }
+    ]
+  }
+}

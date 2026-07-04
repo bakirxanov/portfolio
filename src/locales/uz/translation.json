@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Men haqimda",
+    "skills": "Ko'nikmalar",
+    "statistics": "Statistika",
+    "projects": "Loyihalar",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "greeting": "Salom, men",
+    "name": "Akmal Bakirxanov",
+    "roles": ["Frontend dasturchi", "React dasturchi", "UI ishqibozi"],
+    "paragraph": "Men tez, nafis va yuqori darajada interaktiv veb-interfeyslar yarataman — murakkab g'oyalarni odamlar sevib ishlatadigan interfeyslarga aylantiraman.",
+    "downloadCv": "CV yuklab olish",
+    "contactMe": "Men bilan bog'lanish",
+    "viewProjects": "Loyihalarni ko'rish",
+    "scroll": "Pastga suring"
+  },
+  "about": {
+    "title": "Men haqimda",
+    "subtitle": "Men bilan yaqinroq tanishing",
+    "whoIAm": "Men kimman",
+    "whoIAmText": "Men immersiv, tez ishlaydigan va piksel darajasida aniq raqamli mahsulotlar yaratishga ishtiyoqi bor frontend dasturchiman. React ekotizimiga ixtisoslashganman va jasur dizayn g'oyalarini animatsiya va kod orqali hayotga tatbiq etishni yaxshi ko'raman.",
+    "timelineTitle": "Mening yo'lim",
+    "educationTitle": "Ta'lim",
+    "experienceTitle": "Ish tajribasi",
+    "timeline": [
+      { "year": "2018 — 2020", "title": "Kompyuter fanlari diplomi", "place": "Milliy IT Universiteti", "type": "education", "desc": "Algoritmlar, ma'lumotlar tuzilmalari va dasturiy injiniring asoslarini o'rgandim." },
+      { "year": "2020 — 2021", "title": "Kichik Frontend dasturchi", "place": "PixelCraft Studio", "type": "experience", "desc": "React yordamida moslashuvchan marketing saytlari va ichki panellarni yaratdim." },
+      { "year": "2021 — 2023", "title": "Frontend dasturchi", "place": "NovaTech Labs", "type": "experience", "desc": "Fintech platformasining UI qatlamiga rahbarlik qildim, unumdorlikni 40% ga oshirdim." },
+      { "year": "2023 — Hozirgacha", "title": "Katta Frontend dasturchi", "place": "Orbit Interactive", "type": "experience", "desc": "Dizayn tizimlarini loyihalayman va 5 nafar frontend muhandisidan iborat jamoaga rahbarlik qilaman." }
+    ],
+    "downloadCv": "To'liq CV yuklab olish"
+  },
+  "skills": {
+    "title": "Mening ko'nikmalarim",
+    "subtitle": "Har kuni ishlatadigan texnologiyalarim",
+    "list": [
+      { "name": "React", "level": 95 },
+      { "name": "JavaScript", "level": 93 },
+      { "name": "TypeScript", "level": 85 },
+      { "name": "HTML5", "level": 98 },
+      { "name": "CSS3", "level": 96 },
+      { "name": "Tailwind CSS", "level": 92 },
+      { "name": "Redux", "level": 80 },
+      { "name": "React Query", "level": 88 },
+      { "name": "Axios", "level": 90 },
+      { "name": "Node.js", "level": 75 },
+      { "name": "Git & GitHub", "level": 90 },
+      { "name": "Framer Motion", "level": 87 }
+    ]
+  },
+  "statistics": {
+    "title": "Raqamlarda",
+    "subtitle": "Mening yo'limga qisqacha nazar",
+    "projectsCompleted": "Yakunlangan loyihalar",
+    "yearsLearning": "O'rganish yillari",
+    "happyClients": "Mamnun mijozlar",
+    "repositories": "Repozitoriyalar",
+    "hoursCoding": "Kodlash soatlari",
+    "technologies": "O'zlashtirilgan texnologiyalar"
+  },
+  "projects": {
+    "title": "Tanlangan loyihalar",
+    "subtitle": "Yaqinda yaratilgan ishlarimdan namunalar",
+    "liveDemo": "Jonli demo",
+    "sourceCode": "Manba kodi",
+    "list": [
+      { "title": "Nova Finance Dashboard", "desc": "Fintech startapi uchun real vaqtdagi tahliliy panel, jonli grafiklar, tungi rejim va rolga asoslangan kirish bilan.", "tags": ["React", "TypeScript", "TanStack Query"] },
+      { "title": "Aurora E-Commerce", "desc": "3D mahsulot ko'rinishi, animatsiyali savat va headless CMS integratsiyasiga ega premium do'kon.", "tags": ["React", "Framer Motion", "Tailwind"] },
+      { "title": "Pulse Fitness App", "desc": "Animatsiyali progress halqalari va ijtimoiy musobaqalarga ega ko'p platformali fitnes ilovasi.", "tags": ["React", "GSAP", "Redux"] },
+      { "title": "Lumen Portfolio Kit", "desc": "200 dan ortiq dasturchi foydalanadigan portfolio saytlari uchun komponentlar kutubxonasi.", "tags": ["React", "Vite", "Storybook"] },
+      { "title": "Orbit Travel Planner", "desc": "Xarita integratsiyasi va hamkorlikdagi marshrutlarga ega interaktiv sayohat rejalashtiruvchisi.", "tags": ["React", "Mapbox", "Axios"] },
+      { "title": "Nimbus Chat", "desc": "Animatsiyali onlayn holat ko'rsatkichlari va uchidan-uchigacha shifrlashga ega real vaqtli messenjer.", "tags": ["React", "WebSockets", "Framer Motion"] }
+    ]
+  },
+  "contact": {
+    "title": "Birgalikda ishlaylik",
+    "subtitle": "Loyihangiz bormi? Keling, muhokama qilamiz.",
+    "form": {
+      "name": "Ism",
+      "namePlaceholder": "To'liq ismingiz",
+      "email": "Email",
+      "emailPlaceholder": "siz@example.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "+998 90 000 00 00",
+      "subject": "Mavzu",
+      "subjectPlaceholder": "Xabaringiz nima haqida?",
+      "message": "Xabar",
+      "messagePlaceholder": "Loyihangiz haqida gapirib bering...",
+      "send": "Xabar yuborish",
+      "sending": "Yuborilmoqda...",
+      "success": "Xabaringiz muvaffaqiyatli yuborildi!",
+      "errors": {
+        "nameRequired": "Iltimos, ismingizni kiriting",
+        "emailRequired": "Iltimos, emailingizni kiriting",
+        "emailInvalid": "To'g'ri email manzilini kiriting",
+        "phoneInvalid": "To'g'ri telefon raqamini kiriting",
+        "subjectRequired": "Iltimos, mavzuni kiriting",
+        "messageRequired": "Iltimos, xabaringizni kiriting",
+        "messageMin": "Xabar kamida 10 ta belgidan iborat bo'lishi kerak"
+      }
+    },
+    "location": "Manzil",
+    "locationValue": "Toshkent, O'zbekiston",
+    "availability": "Frilanser loyihalar uchun ochiqman",
+    "followMe": "Meni kuzating"
+  },
+  "footer": {
+    "tagline": "Chiroyli, unumli interfeyslarni piksel-baypiksel yarataman.",
+    "quickLinks": "Tezkor havolalar",
+    "contactInfo": "Aloqa ma'lumotlari",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "backToTop": "Yuqoriga qaytish"
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "subtitle": "Siz izlayotgan sahifa mavjud emas yoki ko'chirilgan.",
+    "backHome": "Bosh sahifaga qaytish"
+  },
+  "loader": {
+    "loading": "Yuklanmoqda"
+  },
+  "home": {
+    "features": [
+      { "title": "Toza kod", "text": "Sanoat andozalariga mos, kengaytiriladigan va yaxshi tuzilgan kod." },
+      { "title": "O'ylangan dizayn", "text": "Har bir detalga e'tibor bilan yaratilgan piksel darajasida aniq interfeyslar." },
+      { "title": "Yuqori unumdorlik", "text": "Tezlik uchun optimallashtirilgan — tez yuklanish, silliq animatsiyalar." }
+    ]
+  }
+}
