@@ -1,0 +1,9 @@
+.env faylini loyihaning ROOT papkasida (package.json bilan bir joyda) yarating va shu qatorlarni yozing:
+
+VITE_EMAILJS_SERVICE_ID=service_dzh4rsa
+VITE_EMAILJS_TEMPLATE_ID=<EmailJS dashboard > Email Templates dan oling>
+VITE_EMAILJS_PUBLIC_KEY=<EmailJS dashboard > Account > General dan oling>
+
+So'ng terminalda:
+npm install @emailjs/browser
+npm run dev

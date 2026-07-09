@@ -26,10 +26,9 @@
     "educationTitle": "Образование",
     "experienceTitle": "Опыт работы",
     "timeline": [
-      { "year": "2018 — 2020", "title": "Диплом по информатике", "place": "Национальный IT Университет", "type": "education", "desc": "Изучал алгоритмы, структуры данных и основы программной инженерии." },
-      { "year": "2020 — 2021", "title": "Junior Frontend разработчик", "place": "PixelCraft Studio", "type": "experience", "desc": "Создавал адаптивные маркетинговые сайты и внутренние дашборды на React." },
-      { "year": "2021 — 2023", "title": "Frontend разработчик", "place": "NovaTech Labs", "type": "experience", "desc": "Руководил UI-слоем финтех-платформы, повысил производительность на 40%." },
-      { "year": "2023 — Настоящее время", "title": "Senior Frontend разработчик", "place": "Orbit Interactive", "type": "experience", "desc": "Проектирую дизайн-системы и руковожу командой из 5 frontend-инженеров." }
+      { "year": "2022 — 2023", "title": "Frontend разработчик", "place": "34-я школа", "type": "education", "desc": "HTML, CSS, JavaScript" },
+      { "year": "2024 — 2025", "title": "Изучаю английский язык", "place": "FunEnglish", "type": "experience", "desc": "Обучение от beginner до pre-intermediate" },
+      { "year": "2021 — 2023", "title": "Frontend разработчик", "place": "Нажот Та'лим", "type": "experience", "desc": "HTML, CSS, JavaScript, React, TypeScript, Tailwind CSS, React Query, Axios, Redux va Next.js !" }
     ],
     "downloadCv": "Скачать полное резюме"
   },

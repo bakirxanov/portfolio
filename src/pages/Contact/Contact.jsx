@@ -5,7 +5,7 @@ import { useMutation } from '@tanstack/react-query';
 import { Send, MapPin, CheckCircle2 } from 'lucide-react';
 import { FaTelegramPlane, FaInstagram, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { fadeUp, fromLeft, fromRight } from '../../utils/animations';
-import { sendContactMessage } from '../../services/api/contact';
+import { sendContactMessage } from '../../services/api/emailjs';
 
 const SOCIALS = [
   { icon: FaTelegramPlane, href: 'https://t.me/example', label: 'Telegram' },
@@ -184,6 +184,16 @@ export default function Contact() {
                 >
                   <CheckCircle2 size={16} />
                   {t('contact.form.success')}
+                </motion.div>
+              )}
+              {mutation.isError && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  className="text-sm text-accent-hover bg-accent/10 border border-accent/30 rounded-xl px-4 py-3"
+                >
+                  {mutation.error?.message || 'Xabarni yuborishda xatolik yuz berdi. Birozdan so‘ng qayta urinib ko‘ring.'}
                 </motion.div>
               )}
             </AnimatePresence>

@@ -26,10 +26,9 @@
     "educationTitle": "Ta'lim",
     "experienceTitle": "Ish tajribasi",
     "timeline": [
-      { "year": "2018 — 2020", "title": "Kompyuter fanlari diplomi", "place": "Milliy IT Universiteti", "type": "education", "desc": "Algoritmlar, ma'lumotlar tuzilmalari va dasturiy injiniring asoslarini o'rgandim." },
-      { "year": "2020 — 2021", "title": "Kichik Frontend dasturchi", "place": "PixelCraft Studio", "type": "experience", "desc": "React yordamida moslashuvchan marketing saytlari va ichki panellarni yaratdim." },
-      { "year": "2021 — 2023", "title": "Frontend dasturchi", "place": "NovaTech Labs", "type": "experience", "desc": "Fintech platformasining UI qatlamiga rahbarlik qildim, unumdorlikni 40% ga oshirdim." },
-      { "year": "2023 — Hozirgacha", "title": "Katta Frontend dasturchi", "place": "Orbit Interactive", "type": "experience", "desc": "Dizayn tizimlarini loyihalayman va 5 nafar frontend muhandisidan iborat jamoaga rahbarlik qilaman." }
+      { "year": "2023 — 2023", "title": "Frontend dasturchi", "place": "34-maktab", "type": "education", "desc": "HTML, CSS, JavaScript" },
+      { "year": "2024 — 2025", "title": "English tilini o'rgangan", "place": "FunEnglish", "type": "experience", "desc": "Beginnerdan to Pre-Intermediate gacha o'rgandim" },
+      { "year": "2025 — 2026", "title": "Frontend dasturchi", "place": "Najot Ta'lim", "type": "experience", "desc": "HTML, CSS, JavaScript, React, TypeScript, Tailwind CSS, React Query, Axios, Redux va Next.js ni o'rgandim!" }
     ],
     "downloadCv": "To'liq CV yuklab olish"
   },

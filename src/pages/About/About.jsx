@@ -75,7 +75,7 @@ export default function About() {
             className="relative rounded-3xl overflow-hidden glass glow-border shadow-card aspect-square"
           >
             <img
-              src="/images/profile.png"
+              src="/images/dnx.jpg"
               alt="About"
               className="w-full h-full object-cover"
             />
